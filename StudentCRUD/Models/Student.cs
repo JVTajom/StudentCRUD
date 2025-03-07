@@ -13,6 +13,7 @@ namespace StudentCRUD.Models
         public string MiddleName { get; set; }
         public string LastName { get; set; }
         public DateTime DateOfBirth { get; set; }
-        public string Address { get; set; }
+        public string Course { get; set; }
+        public string YearLevel { get; set; }
     }
 }
